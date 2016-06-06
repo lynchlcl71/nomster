@@ -8,7 +8,6 @@ class PlacesController < ApplicationController
     @place = Place.new
   end
 
-
   def create
     current_user.places.create(place_params)
     redirect_to root_path
@@ -18,10 +17,13 @@ class PlacesController < ApplicationController
     @place = Place.find(params[:id])
   end
 
+  def edit
+    @place = Place.find(params[:id])
+  end
+
   private
 
   def place_params
     params.require(:place).permit(:name, :description, :address)
   end
-
 end
