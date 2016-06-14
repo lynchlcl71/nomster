@@ -10,6 +10,8 @@
 #   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
 #   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
 GEOCODER_API_KEY: "Aheh_1wQBoODy-o01rzqabVxEXRuc3CpCOXf0EaZkiFRTBUFZNISPFt6IADD9ypo"
+GMAIL_ADDRESS: "lynch717171@gmail.com"
+GMAIL_PASSWORD: "falcons71"
 AWS_ACCESS_KEY: "AKIAJ6CZRLLEGWC5ZIFA"
 AWS_SECRET_KEY: "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"
 AWS_BUCKET: "lynch-lcl-web-pages"
